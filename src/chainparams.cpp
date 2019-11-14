@@ -107,7 +107,7 @@ public:
         nTargetTimespan = 1 * 60;
         nTargetSpacing = 1 * 60;
         nLastPOWBlock = 101;
-        nMaturity = 100;
+        nMaturity = 20;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 10000;
         nModifierUpdateBlock = 615800;
@@ -132,8 +132,8 @@ public:
         assert(hashGenesisBlock == uint256("0x000002ab92c52760afa017db7c08fc825fcb19b585b891c8d2c9d9bd5bb527ea"));
         assert(genesis.hashMerkleRoot == uint256("0x586d223d971d097a6ead9743861a1bc8a518696669f0d8a4cc070e4b9ccae201"));
 
-        vSeeds.push_back(CDNSSeedData("165.22.231.39", "165.22.231.39"));
-        vSeeds.push_back(CDNSSeedData("165.22.42.81", "165.22.42.81"));
+        vSeeds.push_back(CDNSSeedData("167.172.232.221", "138.197.77.208"));
+        vSeeds.push_back(CDNSSeedData("167.172.232.221", "167.172.232.221"));
 //	vSeeds.push_back(CDNSSeedData("149.28.158.213", "149.28.158.213"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 117);
